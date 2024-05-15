@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        @font-face {
+            font-family: 'coda';
+            src: url('./Coda-Regular.ttf');
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="Header">
+        <div id="header_left">
+            <div id="user_img">
+                <img src="./images/user.png" alt="">
+            </div>
+            <div id="user_Name">
+                <label for="">Hammad Rafique </label><label id="user_preference" style="padding-left:5px ;">| Software
+                    Engineer</label>
+            </div>
+            <div></div>
+        </div>
+
+        <div id="header_right">
+            <a id="Home" href="#"><label for="">Home</label></a>
+            <a id="Skills" href="#Expertise_"><label for="">Skills</label></a>
+            <a id="Services" href="#Services_"><label for="">Services</label></a>
+            <a id="Certificates" href="#Cerificates_"><label for="">Certificates</label></a>
+            <a id="About" href="#About_"><label for="">About</label></a>
+            <a id="Contact" href="#Contact_"><label for="">Contact</label></a>
+        </div>
+        <button id="nav-toggle" aria-label="Toggle navigation" onclick="navBtnClicked();">&#9776;</button>
+    </div>
+
+    <div id="nav-links">
+        <a id="Home" href="#"><label for="">Home</label></a>
+        <a id="Skills" href="#Expertise_"><label for="">Skills</label></a>
+        <a id="Services" href="#Services_"><label for="">Services</label></a>
+        <a id="Certificates" href="#Cerificates_"><label for="">Certificates</label></a>
+        <a id="About" href="#About_"><label for="">About</label></a>
+        <a id="Contact" href="#Contact_"><label for="">Contact</label></a>
+    </div>
+
+
+    <div id="Body">
+        <div id="Information_">
+
+        </div>
+        <div id="About_">
+            <div id="About_Title">
+                <p>Here's Something About Me</p>
+            </div>
+            <div id="About_Widgets">
+                <div id="About_left_Image"><img src="./images/Comsats University.png" alt=""></div>
+                <div id="About_right_Info">
+                    <div id="About_right_Info_Head">
+                        <div id="user_icon">
+                            <img src="./images/user_icon.png" alt="">
+                        </div>
+                        <div id="user_keywords">
+                            <p>#Software Engineer &nbsp;|&nbsp;&nbsp;&nbsp;Python Developer</p>
+                        </div>
+                    </div>
+                    <div id="About_right_Info_Desc">
+                        <div id="about_desc1">
+                            <p>I'm Hammad Rafique, a software engineering student at COMSATS University, Islamabad,
+                                Pakistan. </p>
+                        </div>
+                        <div id="about_desc2">
+                            <p><br>I have a strong foundation in object-oriented programming, data structures,
+                                algorithms, and proficiency in various programming languages, with over 3 years of
+                                practical experience, primarily in Python.</p>
+                        </div>
+                        <div id="about_desc3">
+                            <p><br>I'm dedicated to continuous learning, keeping up with industry trends, and using my
+                                problem-solving skills to create impactful software solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Expertise_">
+            <div id="Expertise_Head">
+                <p>Here's my Expertise</p>
+            </div>
+            <div id="Expertise_body">
+                <div id="Expertise_body_skill1" class="Skill_Box">
+                    <div class="inner_skill_box">
+                        <div class="Skill_Title">
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="temp_line"></div>
+                        <div class="Skill_points">
+                            <ul>
+                                <li>
+                                    <p>QA Testing</p>
+                                </li>
+                                <li>
+                                    <p>Software Lifecycle</p>
+                                </li>
+                                <li>
+                                    <p>SRS Building</p>
+                                </li>
+                                <li>
+                                    <p>Data Structure</p>
+                                </li>
+                                <li>
+                                    <p>Deploy & Maintainence</p>
+                                </li>
+                                <li>
+                                    <p>Project Management</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="Expertise_body_skill2" class="Skill_Box">
+                    <div class="inner_skill_box">
+                        <div class="Skill_Title">
+                            <p>UI & UX Desinger</p>
+                        </div>
+                        <div class="temp_line"></div>
+                        <div class="Skill_points">
+                            <ul>
+                                <li>
+                                    <p>Mockup</p>
+                                </li>
+                                <li>
+                                    <p>Research</p>
+                                </li>
+                                <li>
+                                    <p>Prototyping</p>
+                                </li>
+                                <li>
+                                    <p>Wireframing</p>
+                                </li>
+                                <li>
+                                    <p>Information Archecture</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="Expertise_body_skill3" class="Skill_Box">
+                    <div class="inner_skill_box">
+                        <div class="Skill_Title">
+                            <p>Python Developer</p>
+                        </div>
+                        <div class="temp_line"></div>
+                        <div class="Skill_points">
+                            <ul>
+                                <li>
+                                    <p>Web Development</p>
+                                </li>
+                                <li>
+                                    <p>Data Science</p>
+                                </li>
+                                <li>
+                                    <p>Desktop applications</p>
+                                </li>
+                                <li>
+                                    <p>Custom Scripts</p>
+                                </li>
+                                <li>
+                                    <p>Web Automation</p>
+                                </li>
+                                <li>
+                                    <p>Data Scraping</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="Expertise_body_skill4" class="Skill_Box">
+                    <div class="inner_skill_box">
+                        <div class="Skill_Title">
+                            <p>Flutter App Dev.</p>
+                        </div>
+                        <div class="temp_line"></div>
+                        <div class="Skill_points">
+                            <ul>
+                                <li>
+                                    <p>Firebase</p>
+                                </li>
+                                <li>
+                                    <p>UI & UX Design</p>
+                                </li>
+                                <li>
+                                    <p>App Development</p>
+                                </li>
+                                <li>
+                                    <p>Custom Widgets Dev</p>
+                                </li>
+                                <li>
+                                    <p>Plugin Development</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="Expertise_body_skill5" class="Skill_Box">
+                    <div class="inner_skill_box">
+                        <div class="Skill_Title">
+                            <p>Project Contribution.</p>
+                        </div>
+                        <div class="temp_line"></div>
+                        <div class="Skill_points" style="margin-left: -10%;">
+                            <ul>
+                                <li>
+                                    <p>Bug Fixing</p>
+                                </li>
+                                <li>
+                                    <p>Ehancing Projects</p>
+                                </li>
+                                <li>
+                                    <p>App Development</p>
+                                </li>
+                                <li>
+                                    <p>OSSP (GitHub)</p>
+                                </li>
+                                <li>
+                                    <p>Team Collaboration</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Services_">
+            <div id="Services_Head">
+                <p>Providing Services</p>
+            </div>
+            <div id="Services_Container">
+                <div class="Services_Boxes">
+                    <div class="Inner_Services_Boxes">
+                        <div class="Service_Status">
+                            <div class="status_tag"></div>
+                        </div>
+                        <div class="Service_Header">
+                            <div class="Service_Img"><img src="/images/python.png" alt=""></div>
+                            <div class="Service_Title">
+                                <p>Web Scraping</p>
+                            </div>
+                        </div>
+                        <div class="Service_Desc">
+                            <p>Python Script with advanced tools Scrap Data from static &
+                                dynamic using python</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Services_Boxes">
+                    <div class="Inner_Services_Boxes">
+                        <div class="Service_Status">
+                            <div class="status_tag"></div>
+                        </div>
+                        <div class="Service_Header">
+                            <div class="Service_Img"><img src="./images/python.png" alt=""></div>
+                            <div class="Service_Title">
+                                <p>Desktop Apps</p>
+                            </div>
+                        </div>
+                        <div class="Service_Desc">
+                            <p>Creating custom Python desktop apps to meet your exact requirements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Services_Boxes">
+                    <div class="Inner_Services_Boxes">
+                        <div class="Service_Status">
+                            <div class="status_tag"></div>
+                        </div>
+                        <div class="Service_Header">
+                            <div class="Service_Img"><img src="./images/python.png" alt=""></div>
+                            <div class="Service_Title">
+                                <p>AI & ML Projects</p>
+                            </div>
+                        </div>
+                        <div class="Service_Desc">
+                            <p>Empowering businesses with Python-based ML and AI projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Services_Boxes">
+                    <div class="Inner_Services_Boxes">
+                        <div class="Service_Status">
+                            <div class="status_tag"></div>
+                        </div>
+                        <div class="Service_Header">
+                            <div class="Service_Img"><img src="./images/python.png" alt=""></div>
+                            <div class="Service_Title">
+                                <p>Backend Dev</p>
+                            </div>
+                        </div>
+                        <div class="Service_Desc">
+                            <p>Designing, implementing, and maintaining the server side of Websites</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Services_Boxes">
+                    <div class="Inner_Services_Boxes">
+                        <div class="Service_Status">
+                            <div class="status_tag"></div>
+                        </div>
+                        <div class="Service_Header" style="width: 80%; margin-left:-20px">
+                            <div class="Service_Img"><img src="/images/python.png" alt=""></div>
+                            <div class="Service_Title">
+                                <p>Automation Scripts</p>
+                            </div>
+                        </div>
+                        <div class="Service_Desc">
+                            <p>Custom scripts for data scraping, file manipulation, and repetitive processes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Services_Boxes">
+                    <div class="Inner_Services_Boxes">
+                        <div class="Service_Status">
+                            <div class="status_tag"></div>
+                        </div>
+                        <div class="Service_Header">
+                            <div class="Service_Img"><img src="./images/python.png" alt=""></div>
+                            <div class="Service_Title">
+                                <p>Data Engineering</p>
+                            </div>
+                        </div>
+                        <div class="Service_Desc">
+                            <p>Handling & processing large datasets including cleaning, transformation, & integration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Services_Boxes">
+                    <div class="Inner_Services_Boxes">
+                        <div class="Service_Status">
+                            <div class="status_tag"></div>
+                        </div>
+                        <div class="Service_Header">
+                            <div class="Service_Img"><img src="./images/python.png" alt=""></div>
+                            <div class="Service_Title">
+                                <p>Data Analysis</p>
+                            </div>
+                        </div>
+                        <div class="Service_Desc">
+                            <p>Analyzing and visualizing data using Python libraries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Services_Boxes">
+                    <div class="Inner_Services_Boxes">
+                        <div class="Service_Status">
+                            <div class="status_tag"></div>
+                        </div>
+                        <div class="Service_Header">
+                            <div class="Service_Img"><img src="./images/flutter.png" alt=""></div>
+                            <div class="Service_Title">
+                                <p>Mobile Apps</p>
+                            </div>
+                        </div>
+                        <div class="Service_Desc">
+                            <p>Creating high-quality, cross-platform mobile applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Services_Boxes">
+                    <div class="Inner_Services_Boxes">
+                        <div class="Service_Status">
+                            <div class="status_tag"></div>
+                        </div>
+                        <div class="Service_Header">
+                            <div class="Service_Img"><img src="./images/figma.png" alt=""></div>
+                            <div class="Service_Title">
+                                <p>Figma Designs</p>
+                            </div>
+                        </div>
+                        <div class="Service_Desc">
+                            <p>Developing wireframes, mockups, and interactive prototypes.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="Cerificates_">
+            <div id="Cerificates_Head">
+                <p>Professional Certificates</p>
+            </div>
+            <div id="Cerificates_Desc">
+                <div class="Certificates_Boxes">
+                    <div class="certificate">
+                        <div class="Certificate_Image">
+                            <img src="./images/google.png" alt="">
+                        </div>
+                        <div class="Certificate_Info_Container">
+                            <div class="certificate_title">
+                                <p>Crash Course on Python.</p>
+                            </div>
+                            <div class="certificate_data">
+                                <div id="certificateData_leftSide">
+                                    <p>By: </p>
+                                    <p>Coursera</p><img src="./images/coursera.png" alt="">
+                                </div>
+                                <div id="certificateData_rightSide">
+                                    <p>October 15, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Certificates_Boxes">
+                    <div class="certificate">
+                        <div class="Certificate_Image">
+                            <img src="./images/UniversityofPennsylvania_Shield_RGB-2.png" alt="">
+                        </div>
+                        <div class="Certificate_Info_Container">
+                            <div class="certificate_title">
+                                <p>Data Analysis Using Python.</p>
+                            </div>
+                            <div class="certificate_data">
+                                <div id="certificateData_leftSide">
+                                    <p>By: </p>
+                                    <p>Coursera</p><img src="./images/coursera.png" alt="">
+                                </div>
+                                <div id="certificateData_rightSide">
+                                    <p>October 27, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Certificates_Boxes">
+                    <div class="certificate">
+                        <div class="Certificate_Image">
+                            <img src="./images/universityof M.png" alt="">
+                        </div>
+                        <div class="Certificate_Info_Container">
+                            <div class="certificate_title">
+                                <p>Python Data Structures.</p>
+                            </div>
+                            <div class="certificate_data">
+                                <div id="certificateData_leftSide">
+                                    <p>By: </p>
+                                    <p>Coursera</p><img src="./images/coursera.png" alt="">
+                                </div>
+                                <div id="certificateData_rightSide">
+                                    <p>September 24, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Certificates_Boxes">
+                    <div class="certificate">
+                        <div class="Certificate_Image">
+                            <img src="./images/google.png" alt="">
+                        </div>
+                        <div class="Certificate_Info_Container">
+                            <div class="certificate_title">
+                                <p>Data Analysis Using Python.</p>
+                            </div>
+                            <div class="certificate_data">
+                                <div id="certificateData_leftSide">
+                                    <p>By: </p>
+                                    <p>Coursera</p><img src="./images/coursera.png" alt="">
+                                </div>
+                                <div id="certificateData_rightSide">
+                                    <p>October 12, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Certificates_Boxes">
+                    <div class="certificate">
+                        <div class="Certificate_Image">
+                            <img style="width: 65%;" src="./images/Infosec.png" alt="">
+                        </div>
+                        <div class="Certificate_Info_Container">
+                            <div class="certificate_title">
+                                <p> Python - Reconnaissance.</p>
+                            </div>
+                            <div class="certificate_data">
+                                <div id="certificateData_leftSide">
+                                    <p>By: </p>
+                                    <p>Coursera</p><img src="./images/coursera.png" alt="">
+                                </div>
+                                <div id="certificateData_rightSide">
+                                    <p>October 1, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Certificates_Boxes">
+                    <div class="certificate">
+                        <div class="Certificate_Image">
+                            <img src="./images/google.png" alt="">
+                        </div>
+                        <div class="Certificate_Info_Container">
+                            <div class="certificate_title">
+                                <p>Interaction with OS - Python.</p>
+                            </div>
+                            <div class="certificate_data">
+                                <div id="certificateData_leftSide">
+                                    <p>By: </p>
+                                    <p>Coursera</p><img src="./images/coursera.png" alt="">
+                                </div>
+                                <div id="certificateData_rightSide">
+                                    <p>September 24, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="Contact_">
+            <div id="Contact_Head">
+                <p>Get In Touch</p>
+            </div>
+            <div id="Contact_Message">
+                <p>Have a project in mind? Looking for a partner or work together? Reach Out through the form and I’ll
+                    get back to you in the next 48 hours</p>
+            </div>
+            <div id="Contact_Info">
+                <div id="contact_email1" class="contact_info_cards">
+                    <img src="./images/email.png" alt="">
+                    <p>pythondeveloper029@gmail.com</p>
+                </div>
+                <div id="contact_email2" class="contact_info_cards">
+                    <img src="./images/email.png" alt="">
+                    <p>hammadrafique029@gmail.com</p>
+                </div>
+                <div id="contact_phone" class="contact_info_cards">
+                    <img src="./images/phone.png" alt="">
+                    <p>+92 3246966271</p>
+                </div>
+            </div>
+            <div id="Contact_Inputs">
+                <label for="" class="contact_info_label">Your Name:</label>
+                <input id="contact_info_name" class="contact_info_input" type="text" placeholder="Enter your name ...">
+                <label for="" class="contact_info_label">Your Email::</label>
+                <input id="contact_info_email" class="contact_info_input" type="email"
+                    placeholder="Enter your email ...">
+                <label for="" class="contact_info_label">Tell bit more about you::</label>
+                <textarea id="contact_info_desc" class="contact_info_input" type="text" placeholder="More details ..."
+                    style="height: 40%;padding-top:10px"></textarea>
+            </div>
+            <div id="Contact_Submint">
+                <button type="button">
+                    <p>Submint</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1); // Get the target section's id
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,957 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+    overflow-y: scroll;
+}
+#Header {
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    padding: 0px 20px 0px 10px;
+    width: 100wh;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header_left{
+    width: 30%;
+    height: 90%;
+    background-color: white;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    font-family: coda;
+    font-size: 1.2vw;
+}
+#Header #header_left img{
+    width: 50px;
+    height: 50px;
+}
+#Header #header_right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 8%;
+    font-family: coda;
+    padding-right: 12%;
+    font-size: 1.1vw;
+}
+#Header #header_right a {
+    text-decoration: none;
+    color: black;
+}
+#Header #header_right a:hover {
+    text-decoration: underline;
+    color: black;
+    cursor:grabbing;
+}
+
+
+
+
+#Body {
+    background-color: gray;
+    height: 1200px;
+}
+#Information_ {
+    width: 100%;
+    height: 92vh;
+    background-color: white;
+}
+#Information_{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+#Information_ #info_left{
+    width: 55%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 4%;
+    align-items: start;
+    padding-left: 80px; 
+
+}
+#Dev_Name, #Dev_preference, #Dev_Desc, #Dev_Keywords, #Dev_Resume{
+    padding-left: 5%;
+    width: 90%;
+}
+#Dev_Name{
+    font-size: 3.5vw;
+}
+#Dev_preference{
+    margin-top: -5%;
+    font-size: 1.8vw;
+}
+#Dev_Desc{
+    text-align: justify;
+    font-size: 1.5vw;
+    color: #5F5858;
+}
+#Dev_Keywords{
+    font-size: 1.5vw;
+}
+#info_left #Dev_Resume button{
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #279EB8;
+    font-family: coda;
+    font-size: 1.3vw;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+    transition: all 0.2s;
+
+}
+#info_left #Dev_Resume button:hover{
+    width: 35%;
+    height: 50px;
+    cursor: pointer;
+
+}
+#Information_ #info_right{
+    width: 45%;
+    height: 99%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Information_ #info_right img{
+    width: 60%;
+    min-width: 350px;
+    min-height: 330px;
+    max-width: 450px;
+    max-height: 460px;
+
+}
+
+
+
+label, p {
+    font-family: coda;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+#About_{
+    width: 100%;
+    height: 98vh;
+    background-color: #FAFAFA;
+}
+#About_ #About_Title{
+    width: 100%;
+    height: 15vh;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4vw;
+}
+#About_ #About_Widgets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#About_ #About_left_Image {
+    width: 40%;
+    height: 76vh;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+#About_left_Image img{
+    width: 100%;
+    margin-top: -15%;
+}
+#About_ #About_right_Info {
+    width: 60%;
+    height: 76vh;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+#About_ #About_right_Info #About_right_Info_Head {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+}
+#About_ #About_right_Info #About_right_Info_Head #user_icon {
+    width: 15%;
+    height: 99%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#About_ #About_right_Info #About_right_Info_Head #user_icon img {
+    width: 60%;
+    height: 100%;
+}
+#About_ #About_right_Info #About_right_Info_Head #user_keywords {
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #B1B7B8;
+    box-shadow: 1px 1px 5px rgb(110, 108, 108);
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #279EB8;
+    font-size: 1.5vw;
+}
+#About_ #About_right_Info #About_right_Info_Desc {
+    width: 68%;
+    height: 60%;
+    text-align: justify;
+    margin-left: -10%;
+    font-size: 1.4vw;
+}
+
+
+#Expertise_ {
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #279EB8;
+}
+#Expertise_ #Expertise_Head {
+    width: 100%;
+    height: 15vh;
+    background-color: #279EB8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3vw;
+}
+#Expertise_  #Expertise_body {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+#Expertise_ #Expertise_body .Skill_Box {
+    width: 28%;
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Skill_Box  .inner_skill_box {
+    width:92%;
+    height: 92%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: height, 0.3s;
+    box-shadow: 4px 4px 10px rgb(107, 106, 106);
+}
+.inner_skill_box:hover {
+    width:96%;
+    height: 95%;
+    cursor: pointer;
+}
+.inner_skill_box .Skill_Title {
+    width: 98%;
+    height: 14%;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 20px;
+    color:#279EB8;
+}
+.inner_skill_box .Skill_points {
+    height: 85%;
+    font-size: 1.1vw;
+}
+.inner_skill_box .Skill_points li {
+    margin: 2%;
+    margin-left: -10%;
+}
+.temp_line {
+    width: 70%; 
+    height:2px; 
+    background-color:#279EB8;
+    border-radius: 5px;
+}
+
+#Services_ {
+    width: 100%;
+    height: 99vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Services_ #Services_Head {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3vw;
+    margin-top: -4%;
+    margin-bottom: 4%;
+}
+#Services_ #Services_Container {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#Services_ #Services_Container .Services_Boxes {
+    width: 33%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Services_ .Services_Boxes .Inner_Services_Boxes{
+    width: 92%;
+    height: 92%;
+    border-radius: 20px;
+    background-color: #4494A6;
+    color: white;
+    box-shadow: 4px 4px 10px rgb(107, 106, 106);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: height, 0.2s;
+}
+#Services_ .Services_Boxes .Inner_Services_Boxes:hover{
+    width: 95%;
+    height: 95%;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.Inner_Services_Boxes .Service_Status {
+    width: 90%;
+    height: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.Inner_Services_Boxes .Service_Status .status_tag {
+    width: 6px;
+    height: 6px;
+    background-color: #18D814;
+    border-radius: 100px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px rgb(107, 106, 106);
+
+}
+.Inner_Services_Boxes  .Service_Header{
+    width: 75%;
+    height: 27%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 3%;
+}
+.Inner_Services_Boxes  .Service_Header .Service_Img {
+    width: 30%;
+    height: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Inner_Services_Boxes  .Service_Header .Service_Img img {
+    width: 65%;
+    height: 90%;
+}
+.Inner_Services_Boxes  .Service_Header .Service_Title {
+    width: 70%;
+    height: 75%;
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.Inner_Services_Boxes  .Service_Desc{
+    width: 70%;
+    height: 52%;
+    font-size: 1.1vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Cerificates_{
+    width: 100%;
+    height: 99vh;
+    background-color: #67B3C3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Cerificates_ #Cerificates_Head {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3vw;
+    margin-bottom: 4%;
+    margin-top: -4%;
+}
+#Cerificates_ #Cerificates_Desc {
+    width: 70%;
+    height: 60vh;
+    border: 1px soliddi black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Certificates_Boxes {
+    width: 50%;
+    height: 30%;
+}
+.Certificates_Boxes .certificate {
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(107, 106, 106);
+    background-color    : white;
+    display: flex;
+    transition: height, 0.2s;
+    box-shadow: 4px 4px 10px rgb(107, 106, 106)
+}
+.Certificates_Boxes .certificate:hover {
+    width: 96%;
+    height: 91%;
+    background-color: #FAFAFA;
+    cursor: pointer;
+}
+.Certificates_Boxes .Certificate_Image  {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Certificates_Boxes .Certificate_Image img {
+    width: 55px;
+    height: 50px;
+}
+.Certificates_Boxes .Certificate_Info_Container {
+    width: 70%;
+}
+.Certificates_Boxes .Certificate_Info_Container .certificate_title {
+    width: 95%;
+    height: 45%;
+    font-size: 2.0vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    margin-bottom: 10px;
+}
+.Certificates_Boxes .Certificate_Info_Container .certificate_data{
+    width: 95%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.Certificates_Boxes .Certificate_Info_Container .certificate_data #certificateData_leftSide {
+    width: 50%;
+    height: 98%;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.Certificates_Boxes .Certificate_Info_Container .certificate_data #certificateData_rightSide {
+    width: 40%;
+    height: 98%;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    font-size: 1.3vh;
+}
+.Certificates_Boxes .Certificate_Info_Container .certificate_data #certificateData_leftSide img{
+    width: 2wh;
+    height: 2vh;
+}
+
+
+
+#Contact_ {
+    width: 100%;
+    height: 99vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Contact_ #Contact_Head {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3vw;
+    margin-bottom: 20px;
+}
+#Contact_ #Contact_Message {
+    width: 45%;
+    height: 10%;
+    font-size: 1.9vh;
+}
+#Contact_ #Contact_Info {
+    width: 45%;
+    height: 10%;
+    font-size: 1.6vh;
+}
+#Contact_ #Contact_Info .contact_info_cards {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+#Contact_ #Contact_Info .contact_info_cards img {
+    width: 30px;
+    height: 30px;
+}
+#Contact_Inputs {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.contact_info_label{
+    width: 70%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5vh;
+}
+.contact_info_input{
+    width: 90%;
+    height: 10%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #92C0CA;
+    padding-left: 20px;
+    font-family: coda;
+    font-size: 1.5vh;
+    color: white; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+.contact_info_input::placeholder{
+    color: white; 
+}
+.contact_info_input #contact_info_desc {
+    padding-top: 10px;
+}
+#Contact_Submint {
+    width: 45%;
+    height: 20%;
+}
+#Contact_Submint button {
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    background-color: #299DB7;
+    color: white;
+    font-size: 1.9vh;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(107, 106, 106);
+    transition: height, 0.2s;
+}
+#Contact_Submint button:hover {
+    width: 27%;
+    height: 27%;
+    cursor: pointer;
+}
+
+#Dev_Resume {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+}
+#Dev_Resume #Social_Icons {
+    width: 4%;
+    height: 65%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    
+}
+
+#Dev_Resume img {
+    width: 30px;
+    height: 30px;
+    transition: height, 0.2s;
+}
+#Dev_Resume img:hover {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+}
+#nav-links {
+    display: none;
+}
+
+#nav-links {
+    display: none;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-links {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+    /* Ensure the navigation is above other content */
+}
+
+#Dev_Resume_DownloadBtn {
+    width: 30%;
+}
+
+#Expertise_ {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 540px) {
+    #header_left #user_img {
+        display: none;
+    }
+
+    #header_left {
+        width: 100%;
+        font-size: 1.8vh;
+
+    }
+
+    #header_right {
+        display: none;
+    }
+
+    #Header {
+        position: relative;
+    }
+
+    #header_right a {
+        display: none;
+    }
+
+    #nav-toggle {
+        display: block;
+    }
+
+    #nav-links {
+        flex-direction: column;
+        top: 5%;
+        height: 99vh;
+    }
+
+    #nav-links a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    #nav-toggle {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    #Information_ {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    #Information_ #info_left {
+        width: 100%;
+        height: 40vh;
+        padding-left: 0;
+    }
+
+    #Dev_Name {
+        font-size: 3.5vh;
+    }
+
+    #Dev_preference {
+        margin-top: -2%;
+        font-size: 1.8vh;
+    }
+
+    #Dev_Desc {
+        font-size: 1.5vh;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #Dev_Keywords {
+        font-size: 1.3vh;
+    }
+
+    #Dev_Resume {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    #Dev_Resume_DownloadBtn {
+        width: 40%;
+    }
+
+    #info_left #Dev_Resume button {
+        font-size: 1.3vh;
+    }
+
+    #Dev_Resume #Social_Icons {
+        width: 100%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    #Information_ #info_right {
+        width: 100%;
+        height: 40vh;
+        margin: 5%;
+    }
+
+    #About_ #About_Title {
+        font-size: 2.4vh;
+    }
+
+    #About_ #About_Widgets {
+        flex-direction: column;
+    }
+
+    #About_ #About_left_Image {
+        width: 100%;
+        height: 40vh;
+    }
+
+    #About_ #About_right_Info {
+        width: 100%;
+        justify-content: start;
+        height: 40vh;
+    }
+
+    #About_ #About_right_Info #About_right_Info_Head {
+        height: 15%;
+    }
+
+    #About_ #About_right_Info #About_right_Info_Head #user_icon img {
+        width: 80%;
+        height: 80%;
+    }
+
+    #About_ #About_right_Info #About_right_Info_Head #user_keywords {
+        width: 70%;
+        font-size: 1.4vh;
+    }
+
+    #About_ #About_right_Info #About_right_Info_Desc {
+        font-size: 1.4vh;
+        width: 70%;
+    }
+
+    #Expertise_ #Expertise_Head {
+        font-size: 2.3vh;
+    }
+
+    #Expertise_ #Expertise_body {
+        width: 95%;
+        height: 75vh;
+        padding-top: 250px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        column-gap: 2px;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+    }
+
+    #Expertise_ #Expertise_body .Skill_Box {
+        width: 100%;
+        height: 450px;
+    }
+
+    .inner_skill_box .Skill_Title {
+        width: 98%;
+        height: 14%;
+        font-size: 2vh;
+    }
+
+    .inner_skill_box .Skill_points {
+        height: 85%;
+        font-size: 1.7vh;
+    }
+
+    #Services_,
+    #Cerificates_ {
+        justify-content: start;
+        padding-bottom: 20px;
+    }
+
+    #Services_ #Services_Head {
+        font-size: 2.3vh;
+        height: 15vh;
+        margin-bottom: 0;
+    }
+
+    #Services_ #Services_Container {
+        width: 90%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow-y: scroll;
+        height: 83vh;
+        row-gap: 10px;
+        padding-top: 350px;
+        padding-bottom: 20px;
+    }
+
+    #Services_ #Services_Container .Services_Boxes {
+        width: 92%;
+    }
+
+    #Services_ .Services_Boxes .Inner_Services_Boxes {
+        height: 120px;
+    }
+
+    #Services_ .Services_Boxes .Inner_Services_Boxes:hover {
+        width: 97%;
+        height: 130px;
+
+    }
+
+    .Inner_Services_Boxes .Service_Header .Service_Img {
+        width: 40%;
+        height: 40px;
+    }
+
+    .Inner_Services_Boxes .Service_Header .Service_Title {
+        font-size: 1.5vh;
+    }
+
+    .Inner_Services_Boxes .Service_Desc {
+        font-size: 1.3vh;
+    }
+
+    #Cerificates_ #Cerificates_Head {
+        font-size: 2.3vh;
+        margin: 0;
+    }
+
+    #Cerificates_ #Cerificates_Desc {
+        height: 80vh;
+        flex-wrap: nowrap;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 10%; */
+    }
+
+    .Certificates_Boxes .certificate {
+        width: 90%;
+    }
+
+    .Certificates_Boxes {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Certificates_Boxes .Certificate_Info_Container .certificate_title {
+        font-size: 1.9vh;
+    }
+
+    #Contact_ #Contact_Head {
+        font-size: 2.3vh;
+    }
+
+    #Contact_ #Contact_Message {
+        width: 90%;
+    }
+
+    #Contact_ #Contact_Info {
+        width: 70%;
+        margin-top: 5%;
+
+    }
+
+    #Contact_Inputs {
+        width: 70%;
+
+    }
+
+    #Contact_Submint {
+        width: 70%;
+        height: 15%;
+    }
+}
